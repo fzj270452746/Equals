@@ -1,9 +1,4 @@
-//
-//  EqualsData.swift
-//  Equals
-//
-//  Created by Zhao on 2025/10/15.
-//
+
 
 import Foundation
 import UIKit

@@ -13,7 +13,7 @@ enum YouXiMode {
     case wuXian    // 无限模式
 }
 
-class YouXiViewC: UIViewController {
+class HisGameVCS: UIViewController {
     
     // MARK: - Properties
     var equalYouXiMode: YouXiMode = .daoJiShi
@@ -75,7 +75,7 @@ class YouXiViewC: UIViewController {
 }
 
 // MARK: - UI Setup
-extension YouXiViewC {
+extension HisGameVCS {
     func sumSetupUI() {
         // 背景图片
         equalBeiJingImageView.image = UIImage(named: "zback")
@@ -182,7 +182,7 @@ extension YouXiViewC {
 }
 
 // MARK: - Constraints
-extension YouXiViewC {
+extension HisGameVCS {
     func sumSetupConstraints() {
         equalBeiJingImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -301,7 +301,7 @@ extension YouXiViewC {
 }
 
 // MARK: - Game Logic
-extension YouXiViewC {
+extension HisGameVCS {
     func sumStartGame() {
         sumGenerateMaJiang()
         sumStartTimer()
@@ -629,7 +629,7 @@ extension YouXiViewC {
         equalJiShiQi?.invalidate()
         
         // 保存记录
-        YouXiJiLuGuanLi.shared.sumSaveRecord(
+        GamRecdMana.shared.sumSaveRecord(
             mode: equalYouXiMode,
             score: equalDangQianFenShu,
             time: equalYouXiMode == .daoJiShi ? 60 : Int(Date().timeIntervalSince(equalKaiShiShiJian!)),
@@ -687,7 +687,7 @@ extension YouXiViewC {
 }
 
 // MARK: - Actions
-extension YouXiViewC {
+extension HisGameVCS {
     @objc func sumFanHuiAction() {
         let alert = UIAlertController(
             title: "Quit Game",

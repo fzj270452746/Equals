@@ -16,12 +16,12 @@
 		FE7A97202E9FDE3300E2095C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7A97132E9FDE3300E2095C /* LaunchScreen.storyboard */; };
 		FE7A97212E9FDE3300E2095C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7A97152E9FDE3300E2095C /* Main.storyboard */; };
 		FE7A97232E9FDE4D00E2095C /* EqualsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97222E9FDE4D00E2095C /* EqualsData.swift */; };
-		FE7A97242E9FDE5000E2095C /* ZhuCaiDanViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97242E9FDE5000E2095D /* ZhuCaiDanViewC.swift */; };
-		FE7A97252E9FDE5100E2095C /* YouXiViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97252E9FDE5100E2095D /* YouXiViewC.swift */; };
+		FE7A97242E9FDE5000E2095C /* SOhOEMSDanViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97242E9FDE5000E2095D /* SOhOEMSDanViewC.swift */; };
+		FE7A97252E9FDE5100E2095C /* HisGameVCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97252E9FDE5100E2095D /* HisGameVCS.swift */; };
 		FE7A97262E9FDE5200E2095C /* MaJiangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97262E9FDE5200E2095D /* MaJiangView.swift */; };
-		FE7A97272E9FDE5300E2095C /* GuiZeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97272E9FDE5300E2095D /* GuiZeViewC.swift */; };
-		FE7A97282E9FDE5400E2095C /* JiLuViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97282E9FDE5400E2095D /* JiLuViewC.swift */; };
-		FE7A97292E9FDE5500E2095C /* YouXiJiLuGuanLi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97292E9FDE5500E2095D /* YouXiJiLuGuanLi.swift */; };
+		FE7A97272E9FDE5300E2095C /* ShuoumisnViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97272E9FDE5300E2095D /* ShuoumisnViewC.swift */; };
+		FE7A97282E9FDE5400E2095C /* RecoiurdsViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97282E9FDE5400E2095D /* RecoiurdsViewC.swift */; };
+		FE7A97292E9FDE5500E2095C /* GamRecdMana.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7A97292E9FDE5500E2095D /* GamRecdMana.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,12 @@
 		FE7A97162E9FDE3300E2095C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE7A97192E9FDE3300E2095C /* Equals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Equals.xcdatamodel; sourceTree = "<group>"; };
 		FE7A97222E9FDE4D00E2095C /* EqualsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualsData.swift; sourceTree = "<group>"; };
-		FE7A97242E9FDE5000E2095D /* ZhuCaiDanViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhuCaiDanViewC.swift; sourceTree = "<group>"; };
-		FE7A97252E9FDE5100E2095D /* YouXiViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouXiViewC.swift; sourceTree = "<group>"; };
+		FE7A97242E9FDE5000E2095D /* SOhOEMSDanViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOhOEMSDanViewC.swift; sourceTree = "<group>"; };
+		FE7A97252E9FDE5100E2095D /* HisGameVCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisGameVCS.swift; sourceTree = "<group>"; };
 		FE7A97262E9FDE5200E2095D /* MaJiangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaJiangView.swift; sourceTree = "<group>"; };
-		FE7A97272E9FDE5300E2095D /* GuiZeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiZeViewC.swift; sourceTree = "<group>"; };
-		FE7A97282E9FDE5400E2095D /* JiLuViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiLuViewC.swift; sourceTree = "<group>"; };
-		FE7A97292E9FDE5500E2095D /* YouXiJiLuGuanLi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouXiJiLuGuanLi.swift; sourceTree = "<group>"; };
+		FE7A97272E9FDE5300E2095D /* ShuoumisnViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuoumisnViewC.swift; sourceTree = "<group>"; };
+		FE7A97282E9FDE5400E2095D /* RecoiurdsViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoiurdsViewC.swift; sourceTree = "<group>"; };
+		FE7A97292E9FDE5500E2095D /* GamRecdMana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamRecdMana.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				FE7A970E2E9FDE3300E2095C /* AppDelegate.swift */,
-				FE7A97242E9FDE5000E2095D /* ZhuCaiDanViewC.swift */,
-				FE7A97252E9FDE5100E2095D /* YouXiViewC.swift */,
-				FE7A97272E9FDE5300E2095D /* GuiZeViewC.swift */,
-				FE7A97282E9FDE5400E2095D /* JiLuViewC.swift */,
+				FE7A97242E9FDE5000E2095D /* SOhOEMSDanViewC.swift */,
+				FE7A97252E9FDE5100E2095D /* HisGameVCS.swift */,
+				FE7A97272E9FDE5300E2095D /* ShuoumisnViewC.swift */,
+				FE7A97282E9FDE5400E2095D /* RecoiurdsViewC.swift */,
 				28A69D522EA0E52E005DFADE /* GuoaPaiuyCowun.xcframework */,
 				FE7A97262E9FFF4B00E2095C /* Datas */,
 				FE7A97242E9FFF3900E2095C /* View */,
@@ -127,7 +127,7 @@
 		FE7A97252E9FFF3F00E2095C /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FE7A97292E9FDE5500E2095D /* YouXiJiLuGuanLi.swift */,
+				FE7A97292E9FDE5500E2095D /* GamRecdMana.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -261,12 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE7A97232E9FDE4D00E2095C /* EqualsData.swift in Sources */,
-				FE7A97242E9FDE5000E2095C /* ZhuCaiDanViewC.swift in Sources */,
-				FE7A97252E9FDE5100E2095C /* YouXiViewC.swift in Sources */,
+				FE7A97242E9FDE5000E2095C /* SOhOEMSDanViewC.swift in Sources */,
+				FE7A97252E9FDE5100E2095C /* HisGameVCS.swift in Sources */,
 				FE7A97262E9FDE5200E2095C /* MaJiangView.swift in Sources */,
-				FE7A97272E9FDE5300E2095C /* GuiZeViewC.swift in Sources */,
-				FE7A97282E9FDE5400E2095C /* JiLuViewC.swift in Sources */,
-				FE7A97292E9FDE5500E2095C /* YouXiJiLuGuanLi.swift in Sources */,
+				FE7A97272E9FDE5300E2095C /* ShuoumisnViewC.swift in Sources */,
+				FE7A97282E9FDE5400E2095C /* RecoiurdsViewC.swift in Sources */,
+				FE7A97292E9FDE5500E2095C /* GamRecdMana.swift in Sources */,
 				FE7A971A2E9FDE3300E2095C /* AppDelegate.swift in Sources */,
 				FE7A971B2E9FDE3300E2095C /* Equals.xcdatamodeld in Sources */,
 				FE7A971C2E9FDE3300E2095C /* SceneDelegate.swift in Sources */,
@@ -321,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Equals.suiejs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Equals.pwoks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -359,7 +359,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Equals.suiejs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Equals.pwoks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

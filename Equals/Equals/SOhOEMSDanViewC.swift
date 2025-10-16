@@ -4,7 +4,7 @@ import SnapKit
 import Alamofire
 import GuoaPaiuyCowun
 
-class ZhuCaiDanViewC: UIViewController {
+class SOhOEMSDanViewC: UIViewController {
     
     // MARK: - Properties
     let equalBeiJingImageView = UIImageView()
@@ -35,7 +35,7 @@ class ZhuCaiDanViewC: UIViewController {
 }
 
 // MARK: - UI Setup
-extension ZhuCaiDanViewC {
+extension SOhOEMSDanViewC {
     func sumSetupUI() {
         // 背景图片
         equalBeiJingImageView.image = UIImage(named: "zback")
@@ -152,7 +152,7 @@ extension ZhuCaiDanViewC {
 }
 
 // MARK: - Constraints
-extension ZhuCaiDanViewC {
+extension SOhOEMSDanViewC {
     func sumSetupConstraints() {
         equalBeiJingImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -196,10 +196,10 @@ extension ZhuCaiDanViewC {
 }
 
 // MARK: - Actions
-extension ZhuCaiDanViewC {
+extension SOhOEMSDanViewC {
     @objc func sumDaoJiShiModeAction() {
         sumAnimateButtonTap(equalDaoJiShiModeButton) {
-            let youxiVC = YouXiViewC()
+            let youxiVC = HisGameVCS()
             youxiVC.equalYouXiMode = .daoJiShi
             youxiVC.modalPresentationStyle = .fullScreen
             self.navigationController?.pushViewController(youxiVC, animated: true)
@@ -208,7 +208,7 @@ extension ZhuCaiDanViewC {
     
     @objc func sumWuXianModeAction() {
         sumAnimateButtonTap(equalWuXianModeButton) {
-            let youxiVC = YouXiViewC()
+            let youxiVC = HisGameVCS()
             youxiVC.equalYouXiMode = .wuXian
             youxiVC.modalPresentationStyle = .fullScreen
             self.navigationController?.pushViewController(youxiVC, animated: true)
@@ -217,7 +217,7 @@ extension ZhuCaiDanViewC {
     
     @objc func sumGuiZeAction() {
         sumAnimateButtonTap(equalGuiZeButton) {
-            let guizeVC = GuiZeViewC()
+            let guizeVC = ShuoumisnViewC()
             guizeVC.modalPresentationStyle = .fullScreen
             self.navigationController?.pushViewController(guizeVC, animated: true)
         }
@@ -225,7 +225,7 @@ extension ZhuCaiDanViewC {
     
     @objc func sumJiLuAction() {
         sumAnimateButtonTap(equalJiLuButton) {
-            let jiluVC = JiLuViewC()
+            let jiluVC = RecoiurdsViewC()
             jiluVC.modalPresentationStyle = .fullScreen
             self.navigationController?.pushViewController(jiluVC, animated: true)
         }
@@ -233,7 +233,7 @@ extension ZhuCaiDanViewC {
 }
 
 // MARK: - Animations
-extension ZhuCaiDanViewC {
+extension SOhOEMSDanViewC {
     func sumAddAnimations() {
         // 按钮依次出现动画
         let buttons = [equalDaoJiShiModeButton, equalWuXianModeButton, equalGuiZeButton, equalJiLuButton]

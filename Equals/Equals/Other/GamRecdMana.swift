@@ -1,9 +1,4 @@
-//
-//  YouXiJiLuGuanLi.swift
-//  Equals
-//
-//  Created by Zhao on 2025/10/15.
-//
+
 
 import Foundation
 
@@ -15,8 +10,8 @@ struct YouXiJiLu: Codable {
     let equalDate: Date
 }
 
-class YouXiJiLuGuanLi {
-    static let shared = YouXiJiLuGuanLi()
+class GamRecdMana {
+    static let shared = GamRecdMana()
     
     let equalUserDefaultsKey = "GameRecords"
     

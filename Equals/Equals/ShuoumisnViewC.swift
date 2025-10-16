@@ -1,14 +1,9 @@
-//
-//  GuiZeViewController.swift
-//  Equals
-//
-//  Created by Zhao on 2025/10/15.
-//
+
 
 import UIKit
 import SnapKit
 
-class GuiZeViewC: UIViewController {
+class ShuoumisnViewC: UIViewController {
     
     // MARK: - Properties
     let equalBeiJingImageView = UIImageView()
@@ -34,7 +29,7 @@ class GuiZeViewC: UIViewController {
 }
 
 // MARK: - UI Setup
-extension GuiZeViewC {
+extension ShuoumisnViewC {
     func sumSetupUI() {
         // 背景图片
         equalBeiJingImageView.image = UIImage(named: "zback")
@@ -131,7 +126,7 @@ extension GuiZeViewC {
 }
 
 // MARK: - Constraints
-extension GuiZeViewC {
+extension ShuoumisnViewC {
     func sumSetupConstraints() {
         equalBeiJingImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -182,14 +177,14 @@ extension GuiZeViewC {
 }
 
 // MARK: - Actions
-extension GuiZeViewC {
+extension ShuoumisnViewC {
     @objc func sumFanHuiAction() {
         navigationController?.popViewController(animated: true)
     }
 }
 
 // MARK: - Animations
-extension GuiZeViewC {
+extension ShuoumisnViewC {
     func sumAddAnimations() {
         equalBiaoTiLabel.alpha = 0
         equalBiaoTiLabel.transform = CGAffineTransform(translationX: 0, y: -30)

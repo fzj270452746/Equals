@@ -1,14 +1,8 @@
-//
-//  JiLuViewController.swift
-//  Equals
-//
-//  Created by Zhao on 2025/10/15.
-//
 
 import UIKit
 import SnapKit
 
-class JiLuViewC: UIViewController {
+class RecoiurdsViewC: UIViewController {
     
     // MARK: - Properties
     let equalBeiJingImageView = UIImageView()
@@ -37,7 +31,7 @@ class JiLuViewC: UIViewController {
 }
 
 // MARK: - UI Setup
-extension JiLuViewC {
+extension RecoiurdsViewC {
     func sumSetupUI() {
         // 背景图片
         equalBeiJingImageView.image = UIImage(named: "zback")
@@ -91,7 +85,7 @@ extension JiLuViewC {
 }
 
 // MARK: - Constraints
-extension JiLuViewC {
+extension RecoiurdsViewC {
     func sumSetupConstraints() {
         equalBeiJingImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -140,9 +134,9 @@ extension JiLuViewC {
 }
 
 // MARK: - Data
-extension JiLuViewC {
+extension RecoiurdsViewC {
     func sumLoadData() {
-        equalJiLuList = YouXiJiLuGuanLi.shared.sumLoadRecords()
+        equalJiLuList = GamRecdMana.shared.sumLoadRecords()
         equalTableView.reloadData()
         equalEmptyLabel.isHidden = !equalJiLuList.isEmpty
         equalClearButton.isHidden = equalJiLuList.isEmpty
@@ -150,7 +144,7 @@ extension JiLuViewC {
 }
 
 // MARK: - Actions
-extension JiLuViewC {
+extension RecoiurdsViewC {
     @objc func sumFanHuiAction() {
         navigationController?.popViewController(animated: true)
     }
@@ -164,7 +158,7 @@ extension JiLuViewC {
         
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         alert.addAction(UIAlertAction(title: "Clear", style: .destructive) { _ in
-            YouXiJiLuGuanLi.shared.sumClearRecords()
+            GamRecdMana.shared.sumClearRecords()
             self.sumLoadData()
         })
         
@@ -173,7 +167,7 @@ extension JiLuViewC {
 }
 
 // MARK: - Animations
-extension JiLuViewC {
+extension RecoiurdsViewC {
     func sumAddAnimations() {
         equalTableView.alpha = 0
         
@@ -184,7 +178,7 @@ extension JiLuViewC {
 }
 
 // MARK: - UITableViewDelegate, UITableViewDataSource
-extension JiLuViewC: UITableViewDelegate, UITableViewDataSource {
+extension RecoiurdsViewC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return equalJiLuList.count
     }
