@@ -6,7 +6,7 @@ target 'Equals' do
   use_frameworks!
 
   # Pods for Equals
-pod 'SnapKit', '~> 5.0.0'
+pod 'SnapKit'
 pod 'Alamofire'
 
 pod 'Nuke'
